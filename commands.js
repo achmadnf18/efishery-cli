@@ -56,7 +56,7 @@ program
   });
 
 program
-  .command('del <_id>')
+  .command('delete <_id>')
   .alias('d')
   .description('Delete todo')
   .action((_id) => {
